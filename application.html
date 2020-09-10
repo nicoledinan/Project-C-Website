@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/application.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <title> Work with Project C </title>
+</head>
+
+<body>
+
+  <header>
+
+    <div class="logo">
+      <a href="index.html">
+       <img src="images/projectclogo.png" alt="Project C Logo">
+     </a>
+    </div>
+
+    <nav>
+
+      <div class="toggle">
+        <i class="fa fa-bars menu"> </i>
+      </div>
+
+      <ul>
+
+      <li class="home_nav">
+      <a href="index.html"> <p> HOME </p> </a>
+      </li>
+
+      <li class="work_nav">
+      <a href="work.html"> <p> WORK </p> </a>
+      </li>
+
+      <li class="about_nav">
+      <a href="about.html"><p> ABOUT </p></a>
+      </li>
+
+      <li class="contact_nav">
+      <a href="contact.html"> <p> CONTACT </p> </a>
+      </li>
+
+      </ul>
+
+  </nav>
+  <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){
+        $('.menu').click(function(){
+          $('ul').toggleClass('active');
+        })
+      })
+  </script>
+
+  </header>
+
+<div class="content">
+
+  <h1> Work With Us </h1>
+
+  <main>
+
+      <div class="description">
+    <p>Please fill out the form below to apply to work with Project C. We typically choose 1-3 organizations at the beginning of each semester. Feel free to reach out with any questions!</p>
+      </div>
+
+    <div class="form">
+    <form action="https://formspree.io/projectcathens@gmail.com" method="POST" />
+      <input type="text" name="toEmail" value="projectcathens@gmail.com" hidden>
+      <span class="name">Organization Name:</span>
+      <br/>
+      <input type="text" value="" name="Organization Name" >
+
+      <br/>
+      <br/>
+
+      <span class="name">Organization Website:</span>
+      <br/>
+      <input type="text" value="" name="Organization Website" >
+
+      <br/>
+      <br/>
+
+      <span class="name">Contact Person Name:</span><br/>
+      <input type="text" value="" name="Contact Person Name" >
+
+      <br/>
+      <br/>
+
+      <span class="name">Contact Person Email:</span>
+      <br/>
+      <input type="email" value="" name="Contact Person Email" >
+
+      <br/>
+      <br/>
+
+      <span class="name">Organization Type:</span><br/>
+      <select name="Organization Type">
+        <option value="">-- Select One --</option>
+        <option value="Nonprofit">Nonprofit</option>
+        <option value="Community Organization">Community Organization</option>
+        <option value="Student Organization">Student Organization</option>
+      </select>
+
+      <br/>
+      <br/>
+
+      <span class="name">Organization Description:</span>
+      <br/>
+        <textarea name="OrganizationDescription"></textarea>
+
+      <br/>
+      <br/>
+
+      <span class="name">What type of projects are you interested in?</span><br/>
+      <input type="checkbox" value="Photography" name="Project1">Photography<br/>
+      <input type="checkbox" value="Video" name="Project2">Video<br/>
+      <input type="checkbox" value="Social Media" name="Project3">Social Media<br/>
+      <input type="checkbox" value="Design" name="Project4">Design<br/>
+      <input type="checkbox" value="Writing" name="Project5">Writing<br/>
+      <input type="checkbox" value="Other" name="Project6">Other, please specify:<input type="text" value="" name="OtherProject" ><br/><br/>
+
+      <span class="name">Do you foresee any limitations on photo or video permission, such as confidentiality issues? (This does not exclude your organization from consideration.)</span><br/>
+      <input type="radio" value="Yes" name="Limitations">Yes<br/>
+      <input type="radio" value="No" name="Limitations">No<br/><br/>
+
+      <span class="name">Please describe the project(s) you would like our help with.</span><br/>
+      <textarea name="ProjectExplanation"  placeholder="Project Details"></textarea><br/><br/>
+
+      <span class="name">Additional Comments:</span><br/>
+      <textarea name="Aditional Comments"  placeholder="Additional Comments"></textarea><br/><br/><br/>
+
+      <div class="submit"><input type="submit" value="Send" name="submit"></div>
+      <input type="hidden" name="_next" value="http://projectcathens.com/success.html"/>
+
+  </form>
+  </div>
+  </main>
+
+</div>
+
+  <div class="copyright"> &copy; Project C 2019 </div>
+
+</body>
+</html>

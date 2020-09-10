@@ -1,0 +1,135 @@
+.content {
+  width:70%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.work_nav a p {
+  color:white;
+}
+
+h1 {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.description p {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 0 15px 0;
+}
+
+.clientnav {
+  padding: 15px;
+  text-align: center;
+}
+
+.clientnav a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.clientnav a:hover {
+  color: #6ABDC4;
+}
+.clientnav a p {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.saopcontent {
+
+}
+
+body .saopcontent p {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.saopzine {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.saopvideo {
+  max-width: 100%;
+  margin: 15px auto 15px auto;
+}
+
+.content p {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.saopcontent img{
+  margin: 15px auto 15px auto;
+  border: 1px solid;
+
+}
+
+.saopcontent .workimage {
+  margin: 15px auto 15px auto;
+}
+
+.apjncontent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+}
+
+.apjncontent img{
+  width: 100%;
+  border: 1px solid;
+  margin-bottom: 15px;
+}
+
+.apjnlogos img {
+  border:none;
+}
+
+.papercirclevideo video {
+  max-width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.athenavideo {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.workimage {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 718px) {
+  .content {
+    width:90%;
+  }
+}

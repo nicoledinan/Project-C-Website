@@ -1,0 +1,150 @@
+.content {
+  width:70%;
+  margin: 0 auto;
+}
+
+.about_nav a p {
+  color:white;
+}
+
+h1 {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.description p {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  padding: 20px 0 15px 0;
+}
+
+.missionstatement p, .values p, .members p, .meetings p, p {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.members p{
+  text-align: center;
+  font-size: 17px;
+}
+
+.members {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.year {
+  display:grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 70px 1fr;
+  align-items: center;
+}
+
+.year p {
+  text-align: center;
+  margin: 0 auto;
+  max-width:40px;
+  font-size: 17px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.year .hr1 hr, .year .hr2 hr {
+background-color: #6ABDC4;
+border: 0;
+height: 2px;
+}
+
+.members .column1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.members .column2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.members .column3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+h3 {
+  font-family: Avenir, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.executives img {
+  display: block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+}
+
+.executives {
+  display:grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.executives p {
+  text-align:center;
+}
+.executives .President {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.executives .VicePresident {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.executives .Treasurer {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.content a:link, .content a:visited, .content a:hover, .content a:active {
+  color: black;
+  text-decoration: underline;
+  -webkit-text-decoration-style:solid;
+  -webkit-text-decoration-color: #6ABDC4;
+}
+
+.content a:hover {
+  background: #6ABDC4;
+}
+
+
+
+.copyright {
+  color:black;
+}
+
+@media screen and (max-width: 718px) {
+  .content {
+    width:90%;
+  }
+}
